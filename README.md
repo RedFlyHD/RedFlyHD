@@ -1,13 +1,13 @@
 <h1 align="center">Salut, moi, c'est RedFly</h1>
-<h3 align="center">J'adore After Effect et Unreal Engine, j'suis fort en infra, et j'aime bien dev des sites vitrines</h3>
+<h3 align="center">J'adore After Effect et Unreal Engine, et j'aime bien dev des sites</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=redflyhd&label=Profile%20views&color=0e75b6&style=flat" alt="redflyhd" /> </p>
 
 <p align="left"> <a href="https://twitter.com/redflyhd" target="blank"><img src="https://img.shields.io/twitter/follow/redflyhd?logo=twitter&style=for-the-badge" alt="redflyhd" /></a> </p>
 
-- 🎮 Depuis 2021, je travaille sur Desastivale, un super jeu génial au top sur Unreal engine [Desastivale](https://discord.gg/MbRDU7dAvk)
+- 🎮 Depuis 2021, je travaille sur Desastivale, un super jeu génial au top sur Unreal engine [Desastivale]([https://discord.gg/MbRDU7dAvk](https://youtube.com/playlist?list=PLmZyM6Vr837w92L2GNOJKatQyz4bQATpj&si=rNVma3FLEE6ptGPH))
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Me contacter:</h3>
 <p align="left">
 <a href="https://twitter.com/redflyhd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="redflyhd" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/https://www.youtube.com/@redflyhd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/@redflyhd" height="30" width="40" /></a>
