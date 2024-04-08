@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://twitter.com/redflyhd" target="blank"><img src="https://img.shields.io/twitter/follow/redflyhd?logo=twitter&style=for-the-badge" alt="redflyhd" /></a> </p>
 
-- 🎮 Depuis 2021, je travaille sur Desastivale, un super jeu génial au top sur Unreal engine [Desastivale]([https://discord.gg/MbRDU7dAvk](https://youtube.com/playlist?list=PLmZyM6Vr837w92L2GNOJKatQyz4bQATpj&si=rNVma3FLEE6ptGPH))
+- 🎮 Depuis 2021, je travaille sur Desastivale, un super jeu génial au top sur Unreal engine [Desastivale](https://youtube.com/playlist?list=PLmZyM6Vr837w92L2GNOJKatQyz4bQATpj&si=rNVma3FLEE6ptGPH)
 
 <h3 align="left">Me contacter:</h3>
 <p align="left">
