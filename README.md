@@ -1,18 +1,248 @@
-<h1 align="center">Salut</h1>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap");
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=redflyhd&label=Profile%20views&color=0e75b6&style=flat" alt="redflyhd" /> </p>
+:root {
+  --shiny-cta-bg: #000000;
+  --shiny-cta-bg-subtle: #1a1818;
+  --shiny-cta-fg: #ffffff;
+  --shiny-cta-highlight: #ff4c04;
+  --shiny-cta-highlight-subtle: #ffa1a1;
+}
 
-<p align="left"> <a href="https://twitter.com/redflyhd" target="blank"><img src="https://img.shields.io/twitter/follow/redflyhd?logo=twitter&style=for-the-badge" alt="redflyhd" /></a> </p>
+@property --gradient-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
 
+@property --gradient-angle-offset {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
 
-<h3 align="left">Me contacter:</h3>
-<p align="left">
-<a href="https://twitter.com/redflyhd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="redflyhd" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/https://www.youtube.com/@redflyhd" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/@redflyhd" height="30" width="40" /></a>
-<a href="https://discord.gg/TATJTnUCcS" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="TATJTnUCcS" height="30" width="40" /></a>
-</p>
+@property --gradient-percent {
+  syntax: "<percentage>";
+  initial-value: 5%;
+  inherits: false;
+}
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+@property --gradient-shine {
+  syntax: "<color>";
+  initial-value: white;
+  inherits: false;
+}
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=redflyhd&show_icons=true&locale=en&layout=compact" alt="redflyhd" /></p>
+.shiny-cta {
+  --animation: gradient-angle linear infinite;
+  --duration: 3s;
+  --shadow-size: 2px;
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  outline-offset: 4px;
+  padding: 1.25rem 2.5rem;
+  font-family: inherit;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  color: var(--shiny-cta-fg);
+  background: linear-gradient(var(--shiny-cta-bg), var(--shiny-cta-bg))
+      padding-box,
+    conic-gradient(
+        from calc(var(--gradient-angle) - var(--gradient-angle-offset)),
+        transparent,
+        var(--shiny-cta-highlight) var(--gradient-percent),
+        var(--gradient-shine) calc(var(--gradient-percent) * 2),
+        var(--shiny-cta-highlight) calc(var(--gradient-percent) * 3),
+        transparent calc(var(--gradient-percent) * 4)
+      )
+      border-box;
+  box-shadow: inset 0 0 0 1px var(--shiny-cta-bg-subtle);
+
+  &::before,
+  &::after,
+  span::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset-inline-start: 50%;
+    inset-block-start: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+  }
+s
+}
+
+/* Dots pattern */
+.shiny-cta::before {
+  --size: calc(100% - var(--shadow-size) * 3);
+  --position: 2px;
+  --space: calc(var(--position) * 2);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(
+      circle at var(--position) var(--position),
+      white calc(var(--position) / 4),
+      transparent 0
+    )
+    padding-box;
+  background-size: var(--space) var(--space);
+  background-repeat: space;
+  -webkit-mask-image: conic-gradient(
+    from calc(var(--gradient-angle) + 45deg),
+    black,
+    transparent 10% 90%,
+    black
+  );
+          mask-image: conic-gradient(
+    from calc(var(--gradient-angle) + 45deg),
+    black,
+    transparent 10% 90%,
+    black
+  );
+  border-radius: inherit;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+/* Inner shimmer */
+.shiny-cta::after {
+  --animation: shimmer linear infinite;
+  width: 100%;
+  aspect-ratio: 1;
+  background: linear-gradient(
+    -50deg,
+    transparent,
+    var(--shiny-cta-highlight),
+    transparent
+  );
+  -webkit-mask-image: radial-gradient(circle at bottom, transparent 40%, black);
+          mask-image: radial-gradient(circle at bottom, transparent 40%, black);
+  opacity: 0.6;
+}
+
+.shiny-cta span {
+  z-index: 1;
+
+  &::before {
+    --size: calc(100% + 1rem);
+    width: var(--size);
+    height: var(--size);
+    box-shadow: inset 0 -1ex 2rem 4px var(--shiny-cta-highlight);
+    opacity: 0;
+  }
+}
+
+/* Animate */
+.shiny-cta {
+  --transition: 800ms cubic-bezier(0.25, 1, 0.5, 1);
+  transition: var(--transition);
+  transition-property: --gradient-angle-offset, --gradient-percent,
+    --gradient-shine;
+
+  &,
+  &::before,
+  &::after {
+    animation: var(--animation) var(--duration),
+      var(--animation) calc(var(--duration) / 0.4) reverse paused;
+    animation-composition: add;
+  }
+
+  span::before {
+    transition: opacity var(--transition);
+    -webkit-animation: calc(var(--duration) * 1.5) breathe linear infinite;
+            animation: calc(var(--duration) * 1.5) breathe linear infinite;
+  }
+}
+
+.shiny-cta:is(:hover, :focus-visible) {
+  --gradient-percent: 20%;
+  --gradient-angle-offset: 95deg;
+  --gradient-shine: var(--shiny-cta-highlight-subtle);
+
+  &,
+  &::before,
+  &::after {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+  }
+
+  span::before {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes gradient-angle {
+  to {
+    --gradient-angle: 360deg;
+  }
+}
+
+@keyframes gradient-angle {
+  to {
+    --gradient-angle: 360deg;
+  }
+}
+
+@-webkit-keyframes shimmer {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes shimmer {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@-webkit-keyframes breathe {
+  from,
+  to {
+    scale: 1;
+  }
+  50% {
+    scale: 1.2;
+  }
+}
+
+@keyframes breathe {
+  from,
+  to {
+    scale: 1;
+  }
+  50% {
+    scale: 1.2;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  color: white;
+  background: #02040c;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+</style>
+<body>
+<!-- partial:index.partial.html -->
+ <a href="https://doReNew.tech">
+  <button class="shiny-cta">
+    <span>Change the world together.</span>
+  </button>
+ </a>
+<!-- partial -->
+  
+</body>
